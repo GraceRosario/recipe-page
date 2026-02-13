@@ -35,7 +35,7 @@ h2 {
   font-family: outfit, sans-serif;
 }
 
-.prep-time-list li::marker {
+.prep-time-list-section li::marker {
   color: #7b284f;
 }
 
@@ -53,7 +53,7 @@ ol {
   line-height: 2;
 }
 
-ol p {
+ol p, .prep-time-list-heading {
   display: inline;
 }
 
@@ -71,7 +71,7 @@ li {
 
 ol li::marker,
 .step,
-.cal-count {
+.cal-count, .prep-time-list-heading {
   font-weight: 600;
 }
 
@@ -84,7 +84,8 @@ hr {
 }
 
 .cal-count {
-  padding-left: 15rem;
+  /* padding-left: 15rem; */
+  padding-left: 17vw;
 }
 
 table {
@@ -99,7 +100,7 @@ td {
 }
 
 tr td:first-child {
-  padding-left: 2rem;
+  padding-left: 2.22vw;
 }
 
 .cal-count {
@@ -120,6 +121,17 @@ h2 {
   margin: 2rem 0;
 }
 
+.prep-time {
+  margin-top: 0;
+}
+
 footer {
   text-align: center;
+}
+
+.highlight {
+  background-color: #fff5fa;
+  padding: 2rem;
+  border-collapse: collapse;
+  border-radius: 10px;
 }
