@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: outfit, sans-serif;
   color: #5f574e;
+  text-align: left;
+  border-collapse: collapse;
 }
 
 body {
@@ -50,10 +52,14 @@ li::marker {
 ul,
 ol {
   padding-left: 1.2rem;
-  line-height: 2;
 }
 
-ol p, .prep-time-list-heading {
+li {
+  padding: 0.5rem 0;
+}
+
+ol p,
+.prep-time-list-heading {
   display: inline;
 }
 
@@ -71,7 +77,8 @@ li {
 
 ol li::marker,
 .step,
-.cal-count, .prep-time-list-heading {
+.cal-count,
+.prep-time-list-heading {
   font-weight: 600;
 }
 
@@ -91,7 +98,6 @@ hr {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin-bottom: 2rem;
 }
 
 td {
@@ -127,6 +133,7 @@ h2 {
 
 footer {
   text-align: center;
+  padding: 2rem 0;
 }
 
 .highlight {
@@ -134,4 +141,43 @@ footer {
   padding: 2rem;
   border-collapse: collapse;
   border-radius: 10px;
+}
+
+@media (max-width: 375.99px) {
+  body {
+    padding: 0;
+  }
+
+  #content {
+    padding: 0 2rem;
+  }
+
+  p,
+  li,
+  td,
+  footer {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+    margin: 2.5rem 0;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 2rem 0;
+  }
+
+  li {
+    padding: 0.3rem 0;
+  }
+
+  p {
+    margin: -0.7rem 0 1.9rem 0;
+  }
+
+  .highlight {
+    padding: 1.5rem;
+  }
 }
