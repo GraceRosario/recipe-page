@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: outfit, sans-serif;
+  color: #5f574e;
 }
 
 body {
@@ -9,6 +11,72 @@ body {
 }
 
 img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
+
+h1,
+h2 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  color: #302d2c;
+}
+
+h2 {
+  color: #8e513e;
+  font-size: 1.25rem;
+}
+
+.prep-time {
+  color: #762b49;
+  font-family: outfit, sans-serif;
+}
+
+.prep-time-list li::marker {
+  color: #7b284f;
+}
+
+li::marker {
+  color: #854632;
+}
+
+#ingredients + ul {
+  list-style-type: square;
+}
+
+ul, ol {
+  padding-left: 1.2rem;
+  line-height: 2;
+}
+
+ul li::marker {
+  font-size: 0.7rem;
+}
+
+p {
+  display: inline;
+}
+
+li {
+  padding-left: 1.25rem;
+}
+
+ol li::marker, .step {
+  font-weight: 600;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+.nutrition-hr {
+  margin: 1rem 0;
+}
+
+.cal-count {
+  padding-left: 15rem;
+}
+

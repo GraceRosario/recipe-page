@@ -11,6 +11,18 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | Recipe page</title>
@@ -26,15 +38,16 @@
         choice of cheese, vegetables, or meats.
       </p>
 
-      <h2>Preparation time</h2>
-      <ul>
+      <h2 class="prep-time">Preparation time</h2>
+      <ul class="prep-time-list">
         <li>Total: Approximately 10 minutes</li>
         <li>Preparation: 5 minutes</li>
         <li>Cooking: 5 minutes</li>
       </ul>
-      <h2>Ingredients</h2>
+      <h2 id="ingredients">Ingredients</h2>
       <ul>
-        <li>2-3 large eggs Salt, to taste</li>
+        <li>2-3 large eggs</li>
+        <li>Salt, to taste</li>
         <li>Pepper, to taste</li>
         <li>1 tablespoon of butter or oil</li>
         <li>
@@ -74,22 +87,37 @@
           over the fillings. Let it cook for another minute, then slide it onto
           a plate.
         </li>
-        <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+        <li>
+          <p class="step">Enjoy:</p>
+          Serve hot, with additional salt and pepper if needed.
+        </li>
       </ol>
       <hr />
-      <h2>Nutrition</h2>
+      <h2 id="nutrition">Nutrition</h2>
 
       <p>
         The table below shows nutritional values per serving without the
         additional fillings.
       </p>
-      Calories 277kcal<br />
-      <hr />
-      Carbs 0g<br />
-      <hr />
-      Protein 20g<br />
-      <hr />
-      Fat 22g
+      <br />
+      <table>
+        <tr>
+          <td>Calories</td>
+          <td class="cal-count">277kcal</td>
+        </tr>
+        <tr>
+          <td>Carbs</td>
+          <td class="cal-count">0g</td>
+        </tr>
+        <tr>
+          <td>Protein</td>
+          <td class="cal-count">20g</td>
+        </tr>
+        <tr>
+          <td>Fat</td>
+          <td class="cal-count">22g</td>
+        </tr>
+      </table>
     </main>
 
     <footer>
