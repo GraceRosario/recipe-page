@@ -21,7 +21,7 @@ The challenge was to creata a recipe web page with responsive layout and clean c
 
 ### Screenshot
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 ### Links
 
