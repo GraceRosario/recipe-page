@@ -47,7 +47,8 @@ li::marker {
   list-style-type: square;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 1.2rem;
   line-height: 2;
 }
@@ -64,7 +65,9 @@ li {
   padding-left: 1.25rem;
 }
 
-ol li::marker, .step {
+ol li::marker,
+.step,
+.cal-count {
   font-weight: 600;
 }
 
@@ -80,3 +83,19 @@ hr {
   padding-left: 15rem;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border-bottom: 1px solid #5f574e;
+}
+
+.cal-count {
+  color: #854632;
+}
+
+a {
+  color: #4a0b25;
+}
